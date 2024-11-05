@@ -113,6 +113,7 @@
 }
 @media (max-width: 635px) {
   .freeBox__citp {
+    margin-right: 12px;
     padding: 11px 12px 10px;
   }
 }
