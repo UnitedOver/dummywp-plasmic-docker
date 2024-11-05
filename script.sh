@@ -1,7 +1,7 @@
 #!/bin/bash
 
 usage() {
-    echo "Usage: $0 --repourl <repository_url> --reponame <repository_name> --branch <branch_name>"
+    echo "Usage: $0 --repourl https://github.com/UnitedOver/dummywp-plasmic-docker --reponame dummywp-plasmic-docker --branch main"
     exit 1
 }
 
