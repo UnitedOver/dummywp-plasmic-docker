@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: flex-end;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__idDwu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 0px;
+  height: 100%;
+  max-width: 100%;
+  background: #ffffff;
+  transition-property: all;
+  transition-duration: 0.5s;
+  min-height: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.5s;
+}

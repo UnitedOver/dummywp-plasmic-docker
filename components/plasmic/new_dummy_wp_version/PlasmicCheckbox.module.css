@@ -1,0 +1,54 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  width: auto;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 12px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  color: #fef5f4;
+  width: 24px;
+  transition-property: all;
+  transition-duration: 1s;
+  height: 24px;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 1s;
+}
+.svgisChecked {
+  color: #0091ff;
+}
+.svgisIndeterminate {
+  color: #0091ff;
+}
+.rootisDisabled:hover .svgisDisabled {
+  color: #dbdbd7;
+}
+.rootisChecked:hover .svgisChecked {
+  color: #0081f1;
+}
+.rootisIndeterminate:hover .svgisIndeterminate {
+  color: #0081f1;
+}
+.text {
+  font-family: "Courier Prime";
+  color: #1d1d28;
+  font-size: 24px;
+  height: 100%;
+  transform: translateX(0%) translateY(-4px) translateZ(0px);
+  min-height: 0;
+}

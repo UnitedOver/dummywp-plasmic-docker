@@ -1,0 +1,216 @@
+.planButton {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background: var(--token-soKP5ST2wqmp);
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 0.1s;
+  width: 100%;
+  height: 60px;
+  min-width: 0;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 0.1s;
+  border-radius: 4px;
+  border-width: 0px;
+}
+.planButton > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.planButton > :global(.__wab_flex-container) > *,
+.planButton > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.planButton > :global(.__wab_flex-container) > picture > img,
+.planButton
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.planButtonshowStartIcon {
+  padding-left: 16px;
+}
+.planButtonshowEndIcon {
+  padding-right: 16px;
+}
+.planButtonisDisabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.planButtonshape_rounded {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 100px;
+  border-radius: 999px;
+}
+.planButtonshape_round {
+  border-radius: 50%;
+  padding: 12px;
+}
+.planButtonshape_sharp {
+  border-radius: 0px;
+}
+.planButtonsize_compact {
+  padding: 6px 16px;
+}
+.planButtonsize_minimal {
+  padding: 0px;
+}
+.planButtoncolor_blue {
+  background: #0091ff;
+}
+.planButtoncolor_green {
+  background: #30a46c;
+}
+.planButtoncolor_yellow {
+  background: #f5d90a;
+}
+.planButtoncolor_red {
+  background: #e54d2e;
+}
+.planButtoncolor_sand {
+  background: #717069;
+}
+.planButtoncolor_white {
+  background: #ffffff;
+}
+.planButtoncolor_softBlue {
+  background: #edf6ff;
+}
+.planButtoncolor_softGreen {
+  background: #e9f9ee;
+}
+.planButtoncolor_softYellow {
+  background: #fffbd1;
+}
+.planButtoncolor_softRed {
+  background: #fff0ee;
+}
+.planButtoncolor_softSand {
+  background: #eeeeec;
+}
+.planButtoncolor_clear {
+  background: #ffffff00;
+}
+.planButtoncolor_link {
+  background: #ffffff00;
+}
+.planButtonshape_rounded_showStartIcon {
+  padding-left: 16px;
+}
+.planButtonshowEndIcon_shape_rounded {
+  padding-right: 16px;
+}
+.planButtonshape_round_size_compact {
+  padding: 6px;
+}
+.startIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.startIconContainershowStartIcon {
+  display: flex;
+}
+.slotTargetStartIcon {
+  color: #ededec;
+}
+.slotTargetStartIconcolor_yellow {
+  color: #35290f;
+}
+.slotTargetStartIconcolor_white {
+  color: #35290f;
+}
+.slotTargetStartIconcolor_softBlue {
+  color: #006adc;
+}
+.slotTargetStartIconcolor_softGreen {
+  color: #18794e;
+}
+.slotTargetStartIconcolor_softYellow {
+  color: #946800;
+}
+.slotTargetStartIconcolor_softRed {
+  color: #ca3214;
+}
+.slotTargetStartIconcolor_softSand {
+  color: #706f6c;
+}
+.slotTargetStartIconcolor_clear {
+  color: #1b1b18;
+}
+.slotTargetStartIconcolor_link {
+  color: #0091ff;
+}
+.svg__w1FNc {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.text {
+  font-size: 24px;
+  font-family: "Courier Prime";
+  color: var(--token-MJMMLxg_LuHu);
+  font-weight: 700;
+}
+.endIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.endIconContainershowEndIcon {
+  display: flex;
+}
+.slotTargetEndIcon {
+  color: #ededec;
+}
+.slotTargetEndIconcolor_yellow {
+  color: #35290f;
+}
+.slotTargetEndIconcolor_white {
+  color: #35290f;
+}
+.slotTargetEndIconcolor_softBlue {
+  color: #006adc;
+}
+.slotTargetEndIconcolor_softGreen {
+  color: #18794e;
+}
+.slotTargetEndIconcolor_softYellow {
+  color: #946800;
+}
+.slotTargetEndIconcolor_softRed {
+  color: #ca3214;
+}
+.slotTargetEndIconcolor_softSand {
+  color: #706f6c;
+}
+.slotTargetEndIconcolor_clear {
+  color: #1b1b18;
+}
+.slotTargetEndIconcolor_link {
+  color: #0091ff;
+}
+.svg___6EcJz {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
