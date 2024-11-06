@@ -33,6 +33,7 @@ export const useScreenVariants = createUseScreenVariants(true, {
   bp1118: "(max-width:1118px)",
   bp506: "(max-width:506px)",
   bp1497: "(max-width:1497px)",
+  bp588: "(max-width:588px)",
 });
 
 export default ScreenContext;

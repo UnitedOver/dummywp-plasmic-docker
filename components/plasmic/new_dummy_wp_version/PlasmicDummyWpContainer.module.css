@@ -66,6 +66,11 @@
   justify-content: center;
   flex-direction: row;
 }
+@media (max-width: 588px) {
+  .logo {
+    margin-right: 12px;
+  }
+}
 .link {
   display: flex;
   justify-content: center;
@@ -76,6 +81,11 @@
   object-fit: cover;
   cursor: pointer;
   height: 45px;
+}
+@media (max-width: 588px) {
+  .lottie__ePvow:global(.__wab_instance) {
+    height: 40px;
+  }
 }
 .toggleMenuBtnWrapper {
   display: flex;
@@ -136,6 +146,13 @@
   cursor: pointer;
   z-index: 11;
   flex-shrink: 0;
+}
+@media (max-width: 588px) {
+  .toggleMenuBtn {
+    height: 45px;
+    width: 45px;
+    flex-shrink: 0;
+  }
 }
 .sliderMenu {
   display: grid;
