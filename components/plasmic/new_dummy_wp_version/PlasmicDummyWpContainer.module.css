@@ -46,6 +46,12 @@
     border-bottom: 3px solid #fef5f4;
   }
 }
+@media (max-width: 588px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 @media (max-width: 420px) {
   .header {
     padding-right: 20px;
