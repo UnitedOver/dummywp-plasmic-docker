@@ -93,6 +93,11 @@
     height: 40px;
   }
 }
+@media (max-width: 493px) {
+  .lottie__ePvow:global(.__wab_instance) {
+    height: 30px;
+  }
+}
 .toggleMenuBtnWrapper {
   display: flex;
   flex-direction: row;
