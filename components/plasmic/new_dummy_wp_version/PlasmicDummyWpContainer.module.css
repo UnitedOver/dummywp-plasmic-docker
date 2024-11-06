@@ -142,6 +142,8 @@
   font-size: 20px;
   font-weight: 700;
   color: var(--token-gMvFvNb_U3_F);
+  white-space: pre;
+  user-select: text;
   min-width: 0;
 }
 .toggleMenuBtn {
