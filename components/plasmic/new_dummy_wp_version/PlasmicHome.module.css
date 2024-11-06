@@ -405,6 +405,11 @@
     object-fit: contain;
   }
 }
+@media (max-width: 480px) {
+  .img__p8AFz {
+    transform: translateX(340px) translateY(-20px) translateZ(0px);
+  }
+}
 .dummyWpFooter:global(.__wab_instance) {
   position: absolute;
   left: 0;
