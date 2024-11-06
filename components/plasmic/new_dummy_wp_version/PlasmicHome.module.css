@@ -89,6 +89,9 @@
     grid-column: 4;
   }
 }
+.additionalSeoData:global(.__wab_instance):global(.__wab_instance) {
+  display: none;
+}
 .dummyWpContainer:global(.__wab_instance) {
   position: relative;
 }
