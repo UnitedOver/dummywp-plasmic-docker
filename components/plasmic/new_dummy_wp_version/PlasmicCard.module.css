@@ -1,0 +1,329 @@
+.card {
+  position: relative;
+  height: 100%;
+  box-shadow: none;
+  background: #ffffff;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto;
+  flex-direction: column;
+  display: inline-flex;
+  min-height: 0;
+  border-radius: 8px;
+  padding: 40px 60px;
+  border: 2px solid var(--token-soKP5ST2wqmp);
+}
+@media (max-width: 1145px) {
+  .card {
+    padding: 40px 30px;
+  }
+}
+@media (max-width: 862px) {
+  .card {
+    height: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media (max-width: 648px) {
+  .card {
+    padding: 32px;
+  }
+}
+.header {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.headernoTitle {
+  display: none;
+}
+.freeBox__au6Pz {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.text___5TAr5 {
+  position: relative;
+  color: var(--token-MJMMLxg_LuHu);
+  font-family: "Courier Prime";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 49px;
+}
+.body {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  flex-direction: column;
+  min-width: 0;
+}
+.bodynoTitle {
+  padding-top: 16px;
+}
+.freeBox__sy8E5 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+@media (max-width: 862px) {
+  .freeBox__sy8E5 {
+    margin-top: 12px;
+  }
+}
+.text__kOEwk {
+  font-family: "Courier Prime";
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--token-gMvFvNb_U3_F);
+  line-height: 45px;
+  position: relative;
+  left: auto;
+  top: auto;
+  text-align: left;
+  white-space: pre-wrap;
+}
+.slotTargetChildren {
+  font-family: "Courier Prime";
+  font-size: 28px;
+  color: var(--token-gMvFvNb_U3_F);
+}
+.text__kvAhe {
+  position: relative;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 40px;
+  font-family: "Courier Prime";
+  color: var(--token-gMvFvNb_U3_F);
+  font-size: 20px;
+  text-align: left;
+  margin-top: 24px;
+  white-space: pre-wrap;
+}
+@media (max-width: 862px) {
+  .text__kvAhe {
+    margin-top: 12px;
+  }
+}
+.planButton {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background: var(--token-soKP5ST2wqmp);
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 0.1s;
+  width: 100%;
+  height: 60px;
+  min-width: 0;
+  flex-shrink: 0;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: 0.1s;
+  border-radius: 4px;
+  border-width: 0px;
+}
+.planButton > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.planButton > :global(.__wab_flex-container) > *,
+.planButton > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.planButton > :global(.__wab_flex-container) > picture > img,
+.planButton
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+@media (max-width: 420px) {
+  .planButton {
+    height: auto;
+  }
+}
+.startIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.slotTargetStartIcon {
+  color: #ededec;
+}
+.svg__oBxKs {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.text___2CwpT {
+  font-size: 24px;
+  font-family: "Courier Prime";
+  color: var(--token-MJMMLxg_LuHu);
+  font-weight: 700;
+}
+.endIconContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.slotTargetEndIcon {
+  color: #ededec;
+}
+.svg__oIAr2 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.planLists {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: 80px;
+  min-width: 0;
+}
+.planLists > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.planLists > :global(.__wab_flex-container) > *,
+.planLists > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.planLists > :global(.__wab_flex-container) > picture > img,
+.planLists
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+@media (max-width: 1145px) {
+  .planLists > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 12px);
+    height: calc(100% + 12px);
+  }
+}
+@media (max-width: 1145px) {
+  .planLists > :global(.__wab_flex-container) > *,
+  .planLists > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .planLists > :global(.__wab_flex-container) > picture > img,
+  .planLists
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 12px;
+  }
+}
+@media (max-width: 862px) {
+  .planLists {
+    margin-top: 40px;
+  }
+}
+.listItem {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  transform: none;
+  min-width: 0;
+}
+.listItem > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.listItem > :global(.__wab_flex-container) > *,
+.listItem > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.listItem > :global(.__wab_flex-container) > picture > img,
+.listItem
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  width: 20px;
+  height: 5px;
+  color: var(--token-M5xpUX7sl4dt);
+  margin-top: 10px;
+  flex-shrink: 0;
+}
+@media (max-width: 1145px) {
+  .svg {
+    width: 18px;
+    height: 4px;
+    flex-shrink: 0;
+  }
+}
+.listText {
+  position: relative;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 0px;
+  font-family: "Courier Prime";
+  color: var(--token-gMvFvNb_U3_F);
+  font-size: 20px;
+  text-align: left;
+  white-space: pre-wrap;
+  flex-grow: 0;
+}
+@media (max-width: 1145px) {
+  .listText {
+    font-size: 18px;
+  }
+}

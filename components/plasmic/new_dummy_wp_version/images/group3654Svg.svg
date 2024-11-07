@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <filter id="gJegGp2xx8Lda" x=".818" y="6" width="46.364" height="42" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#ff8a83" flood-opacity=".4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-name="Group 365" transform="translate(-444.312 -58)">
+    <rect data-name="Rectangle 264" width="48" height="48" rx="2" transform="translate(444.312 58)" fill="#fedddb"/>
+    <g transform="translate(444.31 58)" filter="url(#gJegGp2xx8Lda)">
+      <path data-name="Path 78" d="M36.002 12h-24a2.182 2.182 0 00-2.182 2.182V34.91a1.091 1.091 0 001.579.975l3.876-1.938 3.876 1.938a1.091 1.091 0 00.976 0l3.876-1.938 3.876 1.938a1.091 1.091 0 00.976 0l3.876-1.938 3.876 1.938a1.091 1.091 0 001.579-.975V14.182A2.182 2.182 0 0036.002 12zm-5.454 14.182H17.457a1.091 1.091 0 110-2.182h13.091a1.091 1.091 0 010 2.182zm0-4.364H17.457a1.091 1.091 0 110-2.182h13.091a1.091 1.091 0 010 2.182z" fill="#ff8a83"/>
+    </g>
+  </g>
+</svg>

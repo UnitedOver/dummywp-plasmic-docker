@@ -1,0 +1,227 @@
+.select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  height: 68px;
+  min-width: 0;
+}
+.selectDropdown {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: #fef5f4;
+  width: 100%;
+  height: 68px;
+  cursor: pointer;
+  min-width: 0;
+  border-radius: 2px;
+  padding: 22px 24px;
+}
+.dropdownContent {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.dropdownLogo {
+  display: flex;
+  background: none;
+  height: 100%;
+  width: 100%;
+  max-width: 36px;
+  min-width: 0;
+  min-height: 0;
+}
+.img___23JfP {
+  object-fit: contain;
+  width: 24px;
+  height: 24px;
+  background: none;
+  flex-shrink: 0;
+}
+.img___23JfP > picture > img {
+  object-fit: contain;
+}
+.dropdownLabel {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-family: "Courier Prime";
+  font-size: 24px;
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #1d1d28;
+  user-select: none;
+  margin-right: 25px;
+  margin-left: 16px;
+  align-self: center;
+  min-width: 0;
+}
+.dropDownArrow {
+  object-fit: cover;
+  width: 20px;
+  transition-property: all;
+  transition-duration: 150ms;
+  height: 20px;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 150ms;
+}
+.dropDownArrowopenSelectbar {
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(180deg);
+}
+.optionsUl {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 100%;
+  left: 0px;
+  top: 72px;
+  background: #ffffff;
+  z-index: 2;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-delay: 0.1s;
+  overflow: auto;
+  height: 0px;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-delay: 0.1s;
+  border-radius: 2px;
+}
+.optionsUlopenSelectbar {
+  height: 314px;
+}
+.optionLi {
+  max-width: 100%;
+  height: 68px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  background: #fef5f4;
+  min-width: 0;
+  flex-shrink: 0;
+  padding: 22px 24px;
+}
+.optionLi > :global(.__wab_flex-container) {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 0;
+  margin-top: calc(0px - 12px);
+  height: calc(100% + 12px);
+}
+.optionLi > :global(.__wab_flex-container) > *,
+.optionLi > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.optionLi > :global(.__wab_flex-container) > picture > img,
+.optionLi
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 12px;
+}
+.dropdownContent2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  cursor: pointer;
+  min-width: 0;
+}
+.dropdownLogo2 {
+  display: flex;
+  background: none;
+  height: 100%;
+  width: 100%;
+  max-width: 36px;
+  min-width: 0;
+  min-height: 0;
+}
+.img___4NMcf {
+  object-fit: contain;
+  width: 24px;
+  height: 24px;
+  background: none;
+  flex-shrink: 0;
+}
+.img___4NMcf > picture > img {
+  object-fit: contain;
+}
+.dropdownLabel2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-family: "Courier Prime";
+  align-self: center;
+  font-size: 24px;
+  white-space: pre;
+  color: #1d1d28;
+  user-select: none;
+  margin-left: 16px;
+  margin-right: 25px;
+  min-width: 0;
+}
+.checkedOptionSvg2 {
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.checkedOptionSvg2 > picture > img {
+  object-fit: cover;
+}
+.dividerWrapper {
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background: none;
+  left: auto;
+  top: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: 0px;
+  min-width: 0;
+  padding: 0px 24px;
+}
+.divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: relative;
+  background: #fc573b1a;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.embedHtml:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  display: none;
+}
