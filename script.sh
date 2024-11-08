@@ -1,7 +1,7 @@
 #!/bin/bash
 
 usage() {
-    echo "Usage: $0 --repourl <https://github.com/PardarsheePriya/dummywp-plasmic-dockers> --reponame <dummywp-plasmic-dockers> --branch <main> --token <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>"
+    echo "Usage: $0 --repourl https://github.com/UnitedOver/dummywp-plasmic-docker --reponame dummywp-plasmic-docker --branch main --token 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"
     exit 1
 }
 
