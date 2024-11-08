@@ -32,7 +32,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 60px 100px;
+  padding: 60px 100px 60px 33px;
 }
 @media (max-width: 902px) {
   .header {
@@ -44,6 +44,12 @@
   .header {
     padding: 20px 40px;
     border-bottom: 3px solid #fef5f4;
+  }
+}
+@media (max-width: 420px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media (max-width: 375px) {
@@ -114,8 +120,13 @@
   .freeBox__citp {
     padding-left: 18px;
     padding-right: 18px;
-    margin-right: 12px;
     height: auto;
+    margin-right: 24px;
+  }
+}
+@media (max-width: 588px) {
+  .freeBox__citp {
+    margin-right: 12px;
   }
 }
 .text__jvdn4 {
