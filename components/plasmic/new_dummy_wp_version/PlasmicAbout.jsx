@@ -327,6 +327,15 @@ function PlasmicAbout__RenderFunc(props) {
             data-plasmic-override={overrides.dummyWpFooter}
             className={classNames("__wab_instance", sty.dummyWpFooter)}
           />
+
+          <Embed
+            data-plasmic-name={"bodyStyle"}
+            data-plasmic-override={overrides.bodyStyle}
+            className={classNames("__wab_instance", sty.bodyStyle)}
+            code={
+              "<style>\r\n  body{\r\n    margin:0;\r\n    padding:0;\r\n  }\r\n</style>"
+            }
+          />
         </div>
       </div>
     </React.Fragment>
@@ -347,7 +356,8 @@ const PlasmicDescendants = {
     "text4",
     "contentFooter",
     "embedHtml",
-    "dummyWpFooter"
+    "dummyWpFooter",
+    "bodyStyle"
   ],
 
   additionalSeoData: ["additionalSeoData"],
@@ -381,7 +391,8 @@ const PlasmicDescendants = {
   text4: ["text4"],
   contentFooter: ["contentFooter"],
   embedHtml: ["embedHtml"],
-  dummyWpFooter: ["dummyWpFooter"]
+  dummyWpFooter: ["dummyWpFooter"],
+  bodyStyle: ["bodyStyle"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -428,6 +439,7 @@ export const PlasmicAbout = Object.assign(
     contentFooter: makeNodeComponent("contentFooter"),
     embedHtml: makeNodeComponent("embedHtml"),
     dummyWpFooter: makeNodeComponent("dummyWpFooter"),
+    bodyStyle: makeNodeComponent("bodyStyle"),
     // Metadata about props expected for PlasmicAbout
     internalVariantProps: PlasmicAbout__VariantProps,
     internalArgProps: PlasmicAbout__ArgProps,

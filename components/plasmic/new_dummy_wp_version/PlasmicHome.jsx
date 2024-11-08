@@ -1249,7 +1249,7 @@ function PlasmicHome__RenderFunc(props) {
             data-plasmic-override={overrides.bodyStyle}
             className={classNames("__wab_instance", sty.bodyStyle)}
             code={
-              "<style>\r\n  *{\r\n    margin:0;\r\n    padding:0;\r\n  }\r\n</style>"
+              "<style>\r\n  body{\r\n    margin:0;\r\n    padding:0;\r\n  }\r\n</style>"
             }
           />
         </div>
