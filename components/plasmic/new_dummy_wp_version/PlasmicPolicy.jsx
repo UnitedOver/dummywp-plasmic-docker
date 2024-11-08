@@ -20,7 +20,6 @@ import AdditionalSeoData from "../../AdditionalSeoData"; // plasmic-import: qJYR
 import DummyWpContainer from "../../DummyWpContainer"; // plasmic-import: LgX6if24X2q3/component
 import PoliciesComponent from "../../PoliciesComponent"; // plasmic-import: p_biNdkGhZq5/component
 import DummyWpFooter from "../../DummyWpFooter"; // plasmic-import: Ou4WpcxmNsUe/component
-import { Embed } from "@plasmicpkgs/plasmic-basic-components";
 import { useScreenVariants as useScreenVariantsngPcOWd604O } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: NGPcOWd-604O/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic.module.css"; // plasmic-import: eojHsTxh2CznYQUhCcvLfa/projectcss
@@ -1455,15 +1454,6 @@ function PlasmicPolicy__RenderFunc(props) {
             data-plasmic-override={overrides.dummyWpFooter}
             className={classNames("__wab_instance", sty.dummyWpFooter)}
           />
-
-          <Embed
-            data-plasmic-name={"bodyStyle"}
-            data-plasmic-override={overrides.bodyStyle}
-            className={classNames("__wab_instance", sty.bodyStyle)}
-            code={
-              "<style>\r\n  body{\r\n    margin:0;\r\n    padding:0;\r\n  }\r\n</style>"
-            }
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1477,16 +1467,14 @@ const PlasmicDescendants = {
     "dummyWpContainer",
     "policiesComponent",
     "text",
-    "dummyWpFooter",
-    "bodyStyle"
+    "dummyWpFooter"
   ],
 
   additionalSeoData: ["additionalSeoData"],
   dummyWpContainer: ["dummyWpContainer"],
   policiesComponent: ["policiesComponent", "text"],
   text: ["text"],
-  dummyWpFooter: ["dummyWpFooter"],
-  bodyStyle: ["bodyStyle"]
+  dummyWpFooter: ["dummyWpFooter"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1526,7 +1514,6 @@ export const PlasmicPolicy = Object.assign(
     policiesComponent: makeNodeComponent("policiesComponent"),
     text: makeNodeComponent("text"),
     dummyWpFooter: makeNodeComponent("dummyWpFooter"),
-    bodyStyle: makeNodeComponent("bodyStyle"),
     // Metadata about props expected for PlasmicPolicy
     internalVariantProps: PlasmicPolicy__VariantProps,
     internalArgProps: PlasmicPolicy__ArgProps,
