@@ -47,7 +47,7 @@ if [[ -d "/var/www/$REPO_NAME" ]]; then
     git pull origin "$BRANCH"
 else
     echo "Cloning repository from the $BRANCH branch..."
-    git clone -b "$BRANCH" "$REPO_URL" "/var/www/$REPO_NAME"
+    git clone -b "$BRANCH" "${REPO_URL}" "/var/www/$REPO_NAME"
     cd "/var/www/$REPO_NAME" || exit
 fi
 
