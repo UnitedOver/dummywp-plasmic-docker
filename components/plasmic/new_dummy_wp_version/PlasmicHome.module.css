@@ -566,7 +566,7 @@
   width: 800px;
   height: auto;
   max-width: 100%;
-  box-shadow: 0px 3px 20px 0px var(--token-8szC7mREoGew);
+  box-shadow: 0px 3px 20px 0px #fc573b;
   background: #ffffff;
   z-index: 1;
   border-radius: 2px;
@@ -623,7 +623,7 @@
 .svg__fOthh {
   object-fit: cover;
   max-width: 100%;
-  color: var(--token-F_UYfHKGcMRV);
+  color: #fc573b;
   height: 1em;
 }
 .dropdownWrapper {

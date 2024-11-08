@@ -7,8 +7,6 @@
   --plasmic-token-dummy-wp-def-text: var(--token-IIHSJDM_k673);
   --token-OHS4W3jM4QS0: #fc573b;
   --plasmic-token-dummy-wp-basic-color: var(--token-OHS4W3jM4QS0);
-  --token-F_UYfHKGcMRV: #fc573b;
-  --plasmic-token-dummy-wp-basic-color-2: var(--token-F_UYfHKGcMRV);
   --token-MJMMLxg_LuHu: #ff8a83;
   --plasmic-token-dummy-wp-new-color: var(--token-MJMMLxg_LuHu);
   --token-gMvFvNb_U3_F: #3c3b4d;
@@ -18,15 +16,9 @@
   --token-ONhVHEytJrHV: #1d1d28bf;
   --plasmic-token-new-dummy-opacity-color: var(--token-ONhVHEytJrHV);
   --token-M5xpUX7sl4dt: #ffb6b2;
-  --plasmic-token-unnamed-style-token: var(--token-M5xpUX7sl4dt);
-  --token-8szC7mREoGew: #fc573b;
-  --plasmic-token-dummy-wp-basic-color-5: var(--token-8szC7mREoGew);
+  --plasmic-token-cards-color: var(--token-M5xpUX7sl4dt);
   --token-h9QXvPHo5BGu: var(--antd-colorBgContainer);
   --plasmic-token-system-bg-container: var(--token-h9QXvPHo5BGu);
-  --token-kDIn5-Mss5l2: #fc573b;
-  --plasmic-token-dummy-wp-basic-color-7: var(--token-kDIn5-Mss5l2);
-  --token-UGtHyO2AATkd: #fc573b;
-  --plasmic-token-dummy-wp-basic-color-8: var(--token-UGtHyO2AATkd);
 }
 
 .plasmic_tokens {

@@ -60,7 +60,7 @@
   color: var(--token-OHS4W3jM4QS0);
 }
 .root .link:hover {
-  color: var(--token-F_UYfHKGcMRV);
+  color: #fc573b;
 }
 .dummyWpFooter:global(.__wab_instance) {
   position: relative;
