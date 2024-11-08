@@ -623,7 +623,7 @@
 .svg__fOthh {
   object-fit: cover;
   max-width: 100%;
-  color: #fc573b;
+  color: var(--token-OHS4W3jM4QS0);
   height: 1em;
 }
 .dropdownWrapper {
