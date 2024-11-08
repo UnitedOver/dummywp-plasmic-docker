@@ -61,3 +61,4 @@ export default function DynamicComponentPage() {
  
   return <Component />;
 }
+ 
