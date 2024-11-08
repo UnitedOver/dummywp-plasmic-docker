@@ -549,6 +549,15 @@ function PlasmicForAuthors__RenderFunc(props) {
                 : "<style>\r\n    body{\r\n    overflow-y:visible !important;\r\n    overflow-x:hidden !important;\r\n  }\r\n\r\n  .main-container{\r\n    overflow-y:visible !important;\r\n    overflow-x:visible !important;\r\n  }\r\n\r\n  .plan-cards:nth-child(2){\r\n    background: #ffffff linear-gradient(218deg, #ffdddd -20%, #ffffff 100%) 0% 0% no-repeat padding-box;\r\n  }\r\n\r\n  /* for responsives */\r\n  .clamp-heading{\r\n    font-size:clamp(2rem, 5vw, 3.75rem);\r\n  }\r\n.plans-heading,\r\n  .challenge-heading{\r\n      font-size:clamp(1.5rem, 4vw, 1.8rem);\r\n  }\r\n\r\n\r\n  .clamp-subHeading{\r\n    font-size: clamp(1.2rem, 4vw, 1.5rem);\r\n  }\r\n\r\n  .feature-heading{\r\n    font-size:clamp(1.5rem, 4vw, 1.8rem);\r\n  }\r\n\r\n  .sec-feature-heading{\r\n    font-size:clamp(0.8rem, 4vw, 1.25rem);\r\n  }\r\n\r\n  .plans-subHeading{\r\n    font-size:clamp(2rem, 5vw, 3rem);\r\n  }\r\n  </style>"
             }
           />
+
+          <Embed
+            data-plasmic-name={"bodyStyle"}
+            data-plasmic-override={overrides.bodyStyle}
+            className={classNames("__wab_instance", sty.bodyStyle)}
+            code={
+              "<style>\r\n  body{\r\n    margin:0;\r\n    padding:0;\r\n  }\r\n</style>"
+            }
+          />
         </div>
       </div>
     </React.Fragment>
@@ -574,7 +583,8 @@ const PlasmicDescendants = {
     "horizontalScroll",
     "planSection",
     "planContent",
-    "dummyWpFooter"
+    "dummyWpFooter",
+    "bodyStyle"
   ],
 
   additionalSeoData: ["additionalSeoData"],
@@ -626,7 +636,8 @@ const PlasmicDescendants = {
   horizontalScroll: ["horizontalScroll"],
   planSection: ["planSection", "planContent"],
   planContent: ["planContent"],
-  dummyWpFooter: ["dummyWpFooter"]
+  dummyWpFooter: ["dummyWpFooter"],
+  bodyStyle: ["bodyStyle"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -678,6 +689,7 @@ export const PlasmicForAuthors = Object.assign(
     planSection: makeNodeComponent("planSection"),
     planContent: makeNodeComponent("planContent"),
     dummyWpFooter: makeNodeComponent("dummyWpFooter"),
+    bodyStyle: makeNodeComponent("bodyStyle"),
     // Metadata about props expected for PlasmicForAuthors
     internalVariantProps: PlasmicForAuthors__VariantProps,
     internalArgProps: PlasmicForAuthors__ArgProps,
