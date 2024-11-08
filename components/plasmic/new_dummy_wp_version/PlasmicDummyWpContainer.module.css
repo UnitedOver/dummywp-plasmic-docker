@@ -46,10 +46,9 @@
     border-bottom: 3px solid #fef5f4;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 493px) {
   .header {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 60px;
   }
 }
 @media (max-width: 375px) {
