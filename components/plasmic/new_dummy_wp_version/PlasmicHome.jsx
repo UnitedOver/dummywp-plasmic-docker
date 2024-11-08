@@ -1241,15 +1241,6 @@ function PlasmicHome__RenderFunc(props) {
                 : "<style>\r\n  .home-contents-grid{\r\n    align-items:end;\r\n  }\r\n\r\n  .selection_effect::selection {\r\n    color: #FC573B;\r\n    background: #FEF5F4;\r\n  }\r\n\r\n  .header{\r\n    padding-bottom: 26px;\r\n  }\r\n</style>\r\n"
             }
           />
-
-          <Embed
-            data-plasmic-name={"bodyStyle"}
-            data-plasmic-override={overrides.bodyStyle}
-            className={classNames("__wab_instance", sty.bodyStyle)}
-            code={
-              "<style>\r\n  body{\r\n    margin:0 !important;\r\n    padding:0  !important;\r\n  }\r\n</style>"
-            }
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1283,8 +1274,7 @@ const PlasmicDescendants = {
     "disableScriptDebug",
     "disablePostDebug",
     "createSiteButton2",
-    "embedHtml",
-    "bodyStyle"
+    "embedHtml"
   ],
 
   additionalSeoData: ["additionalSeoData"],
@@ -1366,8 +1356,7 @@ const PlasmicDescendants = {
   disableScriptDebug: ["disableScriptDebug"],
   disablePostDebug: ["disablePostDebug"],
   createSiteButton2: ["createSiteButton2"],
-  embedHtml: ["embedHtml"],
-  bodyStyle: ["bodyStyle"]
+  embedHtml: ["embedHtml"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1427,7 +1416,6 @@ export const PlasmicHome = Object.assign(
     disablePostDebug: makeNodeComponent("disablePostDebug"),
     createSiteButton2: makeNodeComponent("createSiteButton2"),
     embedHtml: makeNodeComponent("embedHtml"),
-    bodyStyle: makeNodeComponent("bodyStyle"),
     // Metadata about props expected for PlasmicHome
     internalVariantProps: PlasmicHome__VariantProps,
     internalArgProps: PlasmicHome__ArgProps,
