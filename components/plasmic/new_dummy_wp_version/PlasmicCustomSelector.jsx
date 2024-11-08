@@ -493,17 +493,43 @@ function PlasmicCustomSelector__RenderFunc(props) {
                   />
                 ) : null}
               </div>
-              <div
-                data-plasmic-name={"dividerWrapper"}
-                data-plasmic-override={overrides.dividerWrapper}
-                className={classNames(projectcss.all, sty.dividerWrapper)}
-              >
+              {(() => {
+                try {
+                  return $props.optionsLoop.length - 1 !== currentIndex;
+                } catch (e) {
+                  if (
+                    e instanceof TypeError ||
+                    e?.plasmicType === "PlasmicUndefinedDataError"
+                  ) {
+                    return true;
+                  }
+                  throw e;
+                }
+              })() ? (
                 <div
-                  data-plasmic-name={"divider"}
-                  data-plasmic-override={overrides.divider}
-                  className={classNames(projectcss.all, sty.divider)}
-                />
-              </div>
+                  data-plasmic-name={"dividerWrapper"}
+                  data-plasmic-override={overrides.dividerWrapper}
+                  className={classNames(projectcss.all, sty.dividerWrapper, {
+                    [sty.dividerWrapperopenSelectbar]: hasVariant(
+                      $state,
+                      "openSelectbar",
+                      "openSelectbar"
+                    )
+                  })}
+                >
+                  <div
+                    data-plasmic-name={"divider"}
+                    data-plasmic-override={overrides.divider}
+                    className={classNames(projectcss.all, sty.divider, {
+                      [sty.divideropenSelectbar]: hasVariant(
+                        $state,
+                        "openSelectbar",
+                        "openSelectbar"
+                      )
+                    })}
+                  />
+                </div>
+              ) : null}
             </Stack__>
           );
         })}

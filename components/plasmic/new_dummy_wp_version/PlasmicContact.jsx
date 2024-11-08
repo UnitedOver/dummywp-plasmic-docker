@@ -135,6 +135,15 @@ function PlasmicContact__RenderFunc(props) {
             data-plasmic-override={overrides.dummyWpFooter}
             className={classNames("__wab_instance", sty.dummyWpFooter)}
           />
+
+          <Embed
+            data-plasmic-name={"bodyStyle"}
+            data-plasmic-override={overrides.bodyStyle}
+            className={classNames("__wab_instance", sty.bodyStyle)}
+            code={
+              "<style>\r\n  body{\r\n    margin:0;\r\n    padding:0;\r\n  }\r\n</style>"
+            }
+          />
         </div>
       </div>
     </React.Fragment>
@@ -149,7 +158,8 @@ const PlasmicDescendants = {
     "contents",
     "text",
     "customForm",
-    "dummyWpFooter"
+    "dummyWpFooter",
+    "bodyStyle"
   ],
 
   additionalSeoData: ["additionalSeoData"],
@@ -157,7 +167,8 @@ const PlasmicDescendants = {
   contents: ["contents", "text", "customForm"],
   text: ["text"],
   customForm: ["customForm"],
-  dummyWpFooter: ["dummyWpFooter"]
+  dummyWpFooter: ["dummyWpFooter"],
+  bodyStyle: ["bodyStyle"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -198,6 +209,7 @@ export const PlasmicContact = Object.assign(
     text: makeNodeComponent("text"),
     customForm: makeNodeComponent("customForm"),
     dummyWpFooter: makeNodeComponent("dummyWpFooter"),
+    bodyStyle: makeNodeComponent("bodyStyle"),
     // Metadata about props expected for PlasmicContact
     internalVariantProps: PlasmicContact__VariantProps,
     internalArgProps: PlasmicContact__ArgProps,

@@ -22,6 +22,7 @@ import AdditionalSeoData from "../../AdditionalSeoData"; // plasmic-import: qJYR
 import DummyWpContainer from "../../DummyWpContainer"; // plasmic-import: LgX6if24X2q3/component
 import PoliciesComponent from "../../PoliciesComponent"; // plasmic-import: p_biNdkGhZq5/component
 import DummyWpFooter from "../../DummyWpFooter"; // plasmic-import: Ou4WpcxmNsUe/component
+import { Embed } from "@plasmicpkgs/plasmic-basic-components";
 import { useScreenVariants as useScreenVariantsngPcOWd604O } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: NGPcOWd-604O/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
@@ -408,6 +409,15 @@ function PlasmicTerms__RenderFunc(props) {
             data-plasmic-override={overrides.dummyWpFooter}
             className={classNames("__wab_instance", sty.dummyWpFooter)}
           />
+
+          <Embed
+            data-plasmic-name={"bodyStyle"}
+            data-plasmic-override={overrides.bodyStyle}
+            className={classNames("__wab_instance", sty.bodyStyle)}
+            code={
+              "<style>\r\n  body{\r\n    margin:0;\r\n    padding:0;\r\n  }\r\n</style>"
+            }
+          />
         </div>
       </div>
     </React.Fragment>
@@ -422,7 +432,8 @@ const PlasmicDescendants = {
     "policiesComponent",
     "text",
     "link",
-    "dummyWpFooter"
+    "dummyWpFooter",
+    "bodyStyle"
   ],
 
   additionalSeoData: ["additionalSeoData"],
@@ -430,7 +441,8 @@ const PlasmicDescendants = {
   policiesComponent: ["policiesComponent", "text", "link"],
   text: ["text", "link"],
   link: ["link"],
-  dummyWpFooter: ["dummyWpFooter"]
+  dummyWpFooter: ["dummyWpFooter"],
+  bodyStyle: ["bodyStyle"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -471,6 +483,7 @@ export const PlasmicTerms = Object.assign(
     text: makeNodeComponent("text"),
     link: makeNodeComponent("link"),
     dummyWpFooter: makeNodeComponent("dummyWpFooter"),
+    bodyStyle: makeNodeComponent("bodyStyle"),
     // Metadata about props expected for PlasmicTerms
     internalVariantProps: PlasmicTerms__VariantProps,
     internalArgProps: PlasmicTerms__ArgProps,
