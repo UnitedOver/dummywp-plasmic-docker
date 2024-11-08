@@ -1,5 +1,6 @@
 // pages/index.js
-export default function Home() {
-    return <h1>Welcome to your Next.js pp</h1>;
-  }
-  
+import Home from "../components/Home";
+
+export default function Index() {
+  return <Home />;
+}

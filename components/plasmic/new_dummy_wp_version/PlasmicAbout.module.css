@@ -29,11 +29,6 @@
     grid-column: 4;
   }
 }
-@media (max-width: 420px) {
-  .root > * {
-    grid-column: 4;
-  }
-}
 @media (max-width: 375px) {
   .root > * {
     grid-column: 4;
@@ -73,11 +68,6 @@
   }
 }
 @media (max-width: 902px) {
-  .section > * {
-    grid-column: 4;
-  }
-}
-@media (max-width: 420px) {
   .section > * {
     grid-column: 4;
   }
