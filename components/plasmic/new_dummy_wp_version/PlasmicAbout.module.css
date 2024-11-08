@@ -77,6 +77,11 @@
     grid-column: 4;
   }
 }
+@media (max-width: 420px) {
+  .section > * {
+    grid-column: 4;
+  }
+}
 @media (max-width: 375px) {
   .section {
     display: none;

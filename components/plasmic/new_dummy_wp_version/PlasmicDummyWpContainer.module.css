@@ -203,6 +203,11 @@
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
+@media (max-width: 375px) {
+  .sliderMenu {
+    display: none;
+  }
+}
 .sliderMenuvarient1 {
   z-index: 10;
   opacity: 1;
@@ -364,8 +369,8 @@
 }
 .sliderLeftvarient2 {
   width: 100%;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 18%;
+  padding-right: 18%;
 }
 .leftSliderLinks:global(.__wab_instance) {
   position: relative;
