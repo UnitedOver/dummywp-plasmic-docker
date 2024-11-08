@@ -22,7 +22,6 @@ import { useDataEnv } from "@plasmicapp/react-web/lib/host";
 import { Embed } from "@plasmicpkgs/plasmic-basic-components";
 import { useScreenVariants as useScreenVariantsngPcOWd604O } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: NGPcOWd-604O/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: eojHsTxh2CznYQUhCcvLfa/projectcss
 import sty from "./PlasmicPoliciesComponent.module.css"; // plasmic-import: p_biNdkGhZq5/css
 import Icon9Icon from "./icons/PlasmicIcon__Icon9"; // plasmic-import: eG81i3pUn5Ov/icon
@@ -74,7 +73,6 @@ function PlasmicPoliciesComponent__RenderFunc(props) {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
-        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.root
       )}
     >

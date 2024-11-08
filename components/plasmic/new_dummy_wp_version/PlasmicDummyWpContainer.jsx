@@ -28,7 +28,6 @@ import { Embed } from "@plasmicpkgs/plasmic-basic-components";
 import LeftSliderLinks from "../../LeftSliderLinks"; // plasmic-import: nyCIJhwBoCru/component
 import { useScreenVariants as useScreenVariantsngPcOWd604O } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: NGPcOWd-604O/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: eojHsTxh2CznYQUhCcvLfa/projectcss
 import sty from "./PlasmicDummyWpContainer.module.css"; // plasmic-import: LgX6if24X2q3/css
 import Icon2Icon from "./icons/PlasmicIcon__Icon2"; // plasmic-import: Gx-7WKM7KnNT/icon
@@ -111,7 +110,6 @@ function PlasmicDummyWpContainer__RenderFunc(props) {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
-        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.container,
         "main-container",
         {

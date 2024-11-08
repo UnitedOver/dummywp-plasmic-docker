@@ -28,7 +28,6 @@ import Card from "../../Card"; // plasmic-import: udIG5vtaNYEp/component
 import DummyWpFooter from "../../DummyWpFooter"; // plasmic-import: Ou4WpcxmNsUe/component
 import { useScreenVariants as useScreenVariantsngPcOWd604O } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: NGPcOWd-604O/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: eojHsTxh2CznYQUhCcvLfa/projectcss
 import sty from "./PlasmicForAuthors.module.css"; // plasmic-import: yEKu53hacq0l/css
 import ButtonArrowSvgIcon from "./icons/PlasmicIcon__ButtonArrowSvg"; // plasmic-import: i4bSa-U_DSIK/icon
@@ -77,7 +76,6 @@ function PlasmicForAuthors__RenderFunc(props) {
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
-            plasmic_antd_5_hostless_css.plasmic_tokens,
             sty.root
           )}
         >

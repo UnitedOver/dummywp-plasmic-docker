@@ -1089,7 +1089,7 @@
         }
       ],
       "indirect": false,
-      "globalContextsFilePath": "plasmic/new_dummy_wp_version/PlasmicGlobalContextsProvider.jsx",
+      "globalContextsFilePath": "",
       "splitsProviderFilePath": "",
       "codeComponents": [
         {

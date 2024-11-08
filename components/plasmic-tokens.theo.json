@@ -21,26 +21,6 @@
       }
     },
     {
-      "name": "DummyWpBasicColor 3",
-      "type": "color",
-      "value": "#FC573B",
-      "category": "color",
-      "meta": {
-        "projectId": "eojHsTxh2CznYQUhCcvLfa",
-        "id": "ujQb1JA6VIlV"
-      }
-    },
-    {
-      "name": "DummyWpBasicColor 4",
-      "type": "color",
-      "value": "#FC573B",
-      "category": "color",
-      "meta": {
-        "projectId": "eojHsTxh2CznYQUhCcvLfa",
-        "id": "ozFjMu5F-QF2"
-      }
-    },
-    {
       "name": "DummyWpBasicColor 5",
       "type": "color",
       "value": "#FC573B",
@@ -48,16 +28,6 @@
       "meta": {
         "projectId": "eojHsTxh2CznYQUhCcvLfa",
         "id": "8szC7mREoGew"
-      }
-    },
-    {
-      "name": "DummyWpBasicColor 6",
-      "type": "color",
-      "value": "#FC573B",
-      "category": "color",
-      "meta": {
-        "projectId": "eojHsTxh2CznYQUhCcvLfa",
-        "id": "dRyUBwZsxYnP"
       }
     },
     {
