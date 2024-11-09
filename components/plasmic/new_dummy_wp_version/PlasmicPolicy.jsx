@@ -12,13 +12,16 @@ import * as React from "react";
 import {
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants,
+  hasVariant
 } from "@plasmicapp/react-web";
 import { useDataEnv } from "@plasmicapp/react-web/lib/host";
 import AdditionalSeoData from "../../AdditionalSeoData"; // plasmic-import: qJYR5wLO6ptv/component
 import DummyWpContainer from "../../DummyWpContainer"; // plasmic-import: LgX6if24X2q3/component
 import PoliciesComponent from "../../PoliciesComponent"; // plasmic-import: p_biNdkGhZq5/component
 import DummyWpFooter from "../../DummyWpFooter"; // plasmic-import: Ou4WpcxmNsUe/component
+import { useScreenVariants as useScreenVariantsngPcOWd604O } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: NGPcOWd-604O/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic.module.css"; // plasmic-import: eojHsTxh2CznYQUhCcvLfa/projectcss
 import sty from "./PlasmicPolicy.module.css"; // plasmic-import: 0W7SIcOmgphk/css
@@ -50,6 +53,9 @@ function PlasmicPolicy__RenderFunc(props) {
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantsngPcOWd604O()
+  });
   return (
     <React.Fragment>
       <div className={projectcss.plasmic_page_wrapper}>
@@ -1441,7 +1447,23 @@ function PlasmicPolicy__RenderFunc(props) {
                 </React.Fragment>
               </div>
             }
-            heading={"Privacy Policy"}
+            heading={
+              hasVariant(globalVariants, "screen", "bp375")
+                ? (() => {
+                    try {
+                      return "Privacy \nPolicy";
+                    } catch (e) {
+                      if (
+                        e instanceof TypeError ||
+                        e?.plasmicType === "PlasmicUndefinedDataError"
+                      ) {
+                        return undefined;
+                      }
+                      throw e;
+                    }
+                  })()
+                : "Privacy Policy"
+            }
           />
 
           <DummyWpFooter

@@ -113,10 +113,15 @@
 @media (max-width: 862px) {
   .contents {
     width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
     grid-column-start: 1 !important;
     grid-column-end: -1 !important;
+    padding: 60px 40px;
+  }
+}
+@media (max-width: 375px) {
+  .contents {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 .contentHeader {

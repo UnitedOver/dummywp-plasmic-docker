@@ -52,6 +52,12 @@
     padding: 40px;
   }
 }
+@media (max-width: 375px) {
+  .contents {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 .text {
   position: relative;
   width: 100%;
