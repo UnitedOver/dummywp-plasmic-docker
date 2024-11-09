@@ -73,7 +73,7 @@
     grid-column: 4;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 588px) {
   .root > * {
     grid-column: 4;
   }
@@ -106,11 +106,6 @@
   transform: none;
   grid-column-start: 1 !important;
   grid-column-end: -1 !important;
-}
-@media (max-width: 375px) {
-  .contents {
-    display: none;
-  }
 }
 .grid {
   display: grid;
@@ -150,6 +145,12 @@
     max-height: none;
     padding: 60px 40px;
     margin: 0px;
+  }
+}
+@media (max-width: 375px) {
+  .freeBox__yMfOv {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 .star1 {
@@ -425,15 +426,6 @@
     top: auto;
     bottom: auto;
     right: auto;
-  }
-}
-@media (max-width: 375px) {
-  .dummyWpFooter:global(.__wab_instance) {
-    left: auto;
-    top: auto;
-    bottom: auto;
-    right: auto;
-    display: none;
   }
 }
 .processingContainer {

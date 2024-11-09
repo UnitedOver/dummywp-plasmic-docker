@@ -34,11 +34,6 @@
     grid-column: 4;
   }
 }
-@media (max-width: 375px) {
-  .root > * {
-    grid-column: 4;
-  }
-}
 .additionalSeoData:global(.__wab_instance):global(.__wab_instance) {
   display: none;
 }
@@ -78,16 +73,6 @@
   }
 }
 @media (max-width: 420px) {
-  .section > * {
-    grid-column: 4;
-  }
-}
-@media (max-width: 375px) {
-  .section {
-    display: none;
-  }
-}
-@media (max-width: 375px) {
   .section > * {
     grid-column: 4;
   }
@@ -349,9 +334,4 @@
   top: auto;
   right: auto;
   bottom: auto;
-}
-@media (max-width: 375px) {
-  .dummyWpFooter:global(.__wab_instance) {
-    display: none;
-  }
 }

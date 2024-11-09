@@ -11,7 +11,6 @@ export const ScreenContext = React.createContext(
 
 export const useScreenVariants = createUseScreenVariants(true, {
   bp902: "(max-width:902px)",
-  bp375: "(max-width:375px)",
   bp1145: "(max-width:1145px)",
   bp1260: "(max-width:1260px)",
   bp751: "(max-width:751px)",
@@ -34,6 +33,7 @@ export const useScreenVariants = createUseScreenVariants(true, {
   bp506: "(max-width:506px)",
   bp1497: "(max-width:1497px)",
   bp588: "(max-width:588px)",
+  bp375: "(max-width:375px)",
 });
 
 export default ScreenContext;
